@@ -1,0 +1,19 @@
+{
+  "processors": [
+    {
+      "inference": {
+        "model_id": "all-minilm-l12-v2",
+        "input_output": [
+        {
+            "input_field": "title",
+            "output_field": "title_vector"
+        },
+        {
+            "input_field": "overview",
+            "output_field": "overview_vector"
+        }
+    ]
+      }
+    }
+  ]
+}
